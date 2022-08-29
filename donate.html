@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>savelife</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html"><img src="images/logo.png" alt="savelifelogo"></a>
+        </h1>
+        <nav>
+          <button class="mui">
+           close
+          </button>
+            <ul>
+                <li>
+                    <span>Group introduction</span> 
+                    <ul>
+                        <li><a href="mission.html">Mission/Vision</a></li>
+                        <li><a href="representativegreeting.html">Representative greeting</a></li>
+                        <li><a href="executives.html">executives</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Notice and press</span>
+                    <ul>
+                        <li><a href="noticeandpress.html">Notice and press</a></li>
+                        <li><a href="column.html">column</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Main Activities</span>
+                    <ul>
+                        <li><a href="lifetv.html">life tv</a></li>
+                        <li><a href="activitydata.html">activity data</a></li>
+                        <li><a href="applicationforadoption.html">Application for adoption</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Sponsorship information</span> 
+                    <ul>
+                        <li><a href="householddisclosure.html">Household Disclosure</a></li>
+                        <li><a href="aboutSponsoredcompanies.html">About Sponsored Companies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Report/Inquiry</span>
+                    <ul>
+                        <li><a href="report.html">Report/Inquiry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a href="donate.html">donate</a>
+    </header>
+    <section class="donation">
+        <div>
+            <div>
+                <h2>Sponsor</h2>
+                <p>Please support the activities of Life, an animal protection organization, with continuous support to create a world where animals and people coexist, and a world that reduces the suffering of animals.</p>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Sponsorship Type</legend>
+                        <ul>
+                            <li>
+                                <label for="Sponsorship_fundrasing">Fundraising Product</label>
+                                <div>
+                                    <select name="donation" id="Sponsorship_fundrasing">
+                                        <option value="donation" selected>donation</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="Sponsorship_cycle">Sponsorship Cycle</label>
+                                <div>
+                                    <select name="Sponsorship" id="Sponsorship_cycle">
+                                        <option value="regular">regular support</option>
+                                        <option value="temporary">temporary Sponsorship</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="Sponsorship_Amount">Sponsorship Amount</label>
+                                <input type="text" id="Sponsorship_Amount" placeholder="1,000,000 WON" >
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Membership Information</legend>
+                        <ul>
+                            <li>
+                                <label for="Membership_information">Membership information</label>
+                                <div>
+                                    <select name="Membership" id="Membership_information">
+                                        <option value="individual">individual</option>
+                                        <option value="Organization">Organization (business)</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="active">
+                                    <label for="individual_name">Name</label>
+                                    <input type="text" id="individual_name" placeholder="YOOHEEYEON">
+                                </div>
+                                <div>
+                                    <label for="Organization_name">Group Name</label>
+                                    <input type="text" id="Organization_name" placeholder="SAVELIFE">
+                                </div>
+                            </li>
+                            <li>
+                                <label for="CellPhone">Cell Phone</label>
+                                <div>
+                                    <select name="CellPhone" id="CellPhone">
+                                        <option value="010" selected>010</option>
+                                    </select>
+                                </div>
+                                <input type="tel"  maxlength="4" placeholder="1234">
+                                <input type="tel"  maxlength="4" placeholder="5678">
+                            </li>
+                            <p>&#42; The latest news of Life, an animal protection organization, is provided with the information you have provided (address, phone number, email, etc.).</p>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Payment Information</legend>
+                        <ul>
+                            <li>
+                                <label for="Method_Of_Payment">Method Of Payment</label>
+                                <div>
+                                    <select name="method" id="Method_Of_Payment">
+                                        <option value="direct" selected>direct debit</option>
+                                        <option value="credit">credit carddirect debit</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="active">
+                                    <ul>
+                                        <li>
+                                            <label for="NameOfBank">Name Of Bank</label>
+                                            <div>
+                                                <select name="bankname" id="NameOfBank">
+                                                    <option value="kookmin bank">kookmin bank</option>
+                                                    <option value="nonghyup bank">nonghyup bank</option>
+                                                    <option value="shinhan bank">shinhan bank</option>
+                                                    <option value="Woori Bank">Woori Bank</option>
+                                                    <option value="Citibank Korea">Citibank Korea</option>
+                                                    <option value="IBK Corporate Bank">IBK Corporate Bank</option>
+                                                    <option value="KEB Hana Bank">KEB Hana Bank</option>
+                                                    <option value="SC First Bank">SC First Bank</option>
+                                                    <option value="Gyeongnam Bank">Gyeongnam Bank</option>
+                                                    <option value="Gwangju Bank">Gwangju Bank</option>
+                                                    <option value="Teacher's Guarantee">Teacher's Guarantee</option>
+                                                    <option value="Daegu Bank">Daegu Bank</option>
+                                                    <option value="Securities on behalf of">Securities on behalf of</option>
+                                                    <option value="Deutsche Bank">Deutsche Bank</option>
+                                                    <option value="Eastern Securities">Eastern Securities</option>
+                                                    <option value="Meritz Comprehensive Financial Securities">Meritz Comprehensive Financial Securities</option>
+                                                    <option value="Future Asset Treatment">Future Asset Treatment</option>
+                                                    <option value="Deputy National Securities">Deputy National Securities</option>
+                                                    <option value="Busan Bank">Busan Bank</option>
+                                                    <option value="Central Council of Forest Unions">Central Council of Forest Unions</option>
+                                                    <option value="Industrial Bank">Industrial Bank</option>
+                                                    <option value="Samsung Securities">Samsung Securities</option>
+                                                    <option value="Mutual Savings Bank">Mutual Savings Bank</option>
+                                                    <option value="New Village Vault Central Association">New Village Vault Central Association</option>
+                                                    <option value="Su Gang Central Association">Su Gang Central Association</option>
+                                                    <option value="Shin Young Securities">Shin Young Securities</option>
+                                                    <option value="Shinhan Financial Investment">Shinhan Financial Investment</option>
+                                                    <option value="Shin Kyo Central Association">Shin Kyo Central Association</option>
+                                                    <option value="SK Securities">SK Securities</option>
+                                                    <option value="Hyundai Tea Investment Securities">Hyundai Tea Investment Securities</option>
+                                                    <option value="Cape Investment Securities">Cape Investment Securities</option>
+                                                    <option value="Post office">Post office</option>
+                                                    <option value="Yuanta Securities">Yuanta Securities</option>
+                                                    <option value="Eugene Investment Securities">Eugene Investment Securities</option>
+                                                    <option value="Ibest Securities">Ibest Securities</option>
+                                                    <option value="Jeonbuk Bank">Jeonbuk Bank</option>
+                                                    <option value="J.P. Mo Simplified Bank">J.P. Mo Simplified Bank</option>
+                                                    <option value="Jeju Bank">Jeju Bank</option>
+                                                    <option value="Bank of Industry and Commerce of China">Bank of Industry and Commerce of China</option>
+                                                    <option value="Kakao Bank">Kakao Bank</option>
+                                                    <option value="Caybank">Caybank</option>
+                                                    <option value="Tosbank">Tosbank</option>
+                                                    <option value="Kyum Securities">Kyum Securities</option>
+                                                    <option value="High Investment Securities">High Investment Securities</option>
+                                                    <option value="Korea Investment Securities">Korea Investment Securities</option>
+                                                    <option value="Hana Financial Investment">Hana Financial Investment</option>
+                                                    <option value="Hanwha Investment Securities">Hanwha Investment Securities</option>
+                                                    <option value="KB Securities">KB Securities</option>
+                                                    <option value="BOA Bank">BOA Bank</option>
+                                                    <option value="HSBC Bank">HSBC Bank</option>
+                                                    <option value="NH Investment Securities">NH Investment Securities</option>
+                                                    <option value="BNP Paribas Bank">BNP Paribas Bank</option>
+                                                    <option value="Korea Force Securities">Korea Force Securities</option>
+                                                    <option value="Kakao Securities">Kakao Securities</option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label for="AccountNumber">Account Number</label>
+                                            <input type="text" id="AccountNumber" placeholder="123456789">
+                                        </li>
+                                        <li>
+                                            <label for="Name_of_account_holder">Name of account holder</label>
+                                            <input type="text" id="Name_of_account_holder" placeholder="YOOHEEYEON">
+                                        </li>
+                                        <li>
+                                            <label for="Classification_of_depositors">Classification of depositors</label>
+                                            <div>
+                                                <select name="Classification" id="Classification_of_depositors">
+                                                    <option value="individual">individual</option>
+                                                    <option value="buisnessman">buisnessman</option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="active">
+                                                <label for="birth">date of birth</label>
+                                                <input type="text" id="birth" placeholder="990623">
+                                            </div>
+                                            <div>
+                                                <label for="Depositors_Business">Depositors Business</label>
+                                                <input type="text" id="Depositors_Business">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label for="withdrawal_date">withdrawal date</label>
+                                            <div>
+                                                <select name="withdrawal date" id="withdrawal_date">
+                                                    <option value="1">1st of every month</option>
+                                                    <option value="15">15st of every month</option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div >
+                                    <ul>
+                                        <li>
+                                            <label for="Card_Number">Card Number</label>
+                                            <input type="text" id="Card_Number">
+                                        </li>
+                                        <li>
+                                            <label for="Expiration_Date">Expiration Date</label>
+                                            <input type="number" id="Expiration_Date" placeholder="MM" max="12">
+                                            <input type="number" placeholder="YY" max="31">
+                                        </li>
+                                        <li>
+                                            <label for="Name_of_the_card_owner">Name of the card owner</label>
+                                            <input type="text" id="Name_of_the_card_owner">
+                                        </li>
+                                        <li>
+                                            <label for="Date_of_birth">Date of birth</label>
+                                            <input type="text" id="Date_of_birth" >
+                                            <div>6 digits in front of your social security number (or business number)</div>
+
+                                        </li>
+                                        <li>
+                                            <label for="cardPassword">Password</label>
+                                            <input type="password" id="cardPassword" placeholder="2 digits before password" maxlength="2">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <ol>
+                            <li>&#42;Regular withdrawal dates are the 1st and 15th of every month.</li>
+                            <li>&#42;If withdrawal is unsuccessful, re-withdrawal will be attempted on the 25th.</li>
+                            <li>&#42; For donations that failed to withdraw from the previous month, the donations for the previous month will be withdrawn at the beginning of the following month.</li>
+                            <li>&#42;Access my page <a href="https://secure.donus.org/savelife/mypage/login">https://secure.donus.org/savelife/mypage/login</a></li>
+                        </ol>
+                    </fieldset>
+                    <input type="submit" value="Support Us">                               
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="ap_contain">
+            <ul>
+                <li>
+                    <h3>
+                        <mark>LIFE</mark>
+                        Application for adoption
+                    </h3>
+                    <figure>
+                        <img src="images/Applicationforadoption_glutinous_rice.jpg" alt="Glutinous rice image">
+                        <figcaption>
+                            <mark>Children born after a dog farm in  Jindo-gun</mark>
+                            <ul>
+                                <li>
+                                    NAME : Glutinous rice
+                                </li>
+                                <li>
+                                    WEIGHT : 2.9kg
+                                </li>
+                                <li>
+                                    AGE : 2 months
+                                </li>
+                                <li>
+                                    GENDER : man
+                                </li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <h3>
+                        <mark>LIFE</mark>
+                        Application for adoption
+                    </h3>
+                    <figure>
+                        <img src="images/Applicationforadoption_siru.jpg" alt="siru image">
+                        <figcaption>
+                            <mark>Children born after a dog farm in  Jindo-gun</mark>
+                            <ul>
+                                <li>
+                                    NAME : siru
+                                </li>
+                                <li>
+                                    WEIGHT : 3.3kg
+                                </li>
+                                <li>
+                                    AGE : 2 months
+                                </li>
+                                <li>
+                                    GENDER : man
+                                </li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <h2>about us</h2>
+                <p>Sponsorship Account Agricultural Cooperation 301-0297-1794-11 Division Corporation Animal Protection Group Life Group Name (Company) Animal Protection Group Life Unique Number 341-82-00421 Representative Shim In-sup</p>
+            </div>
+            <div>
+                <h2>about the group</h2>
+                <ul>
+                    <li><a href="mission.html">Mission, Vision</a></li>
+                    <li><a href="representativegreeting.html">Representative greeting</a></li>
+                    <li><a href="executives.html">Executive</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>main activities</h2>
+                <ul>
+                    <li><a href="lifetv.html">LifeTV</a></li>
+                    <li><a href="activitydata.html">activity data</a></li>
+                    <li><a href="applicationforadoption.html">application for adoption</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>savelifelogo</h2>
+            </div>
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCbO07TBxVKxNaHKVNK2ZwyA">youtube</a></li>
+                <li><a href="https://blog.naver.com/animalslife">blog</a></li>
+                <li><a href="https://www.facebook.com/savelife2020">facebook</a></li>
+                <li><a href="https://www.instagram.com/save.life2020">instagram</a></li>
+            </ul>
+            <div>
+                <h2>contact us</h2>
+                <address>
+                    <mark>Location</mark>
+                    (47547)118th Street 41, 2nd Floor, Yonje-gu, Busan, 
+                </address>
+                <a href="tel:051-853-9994">051-853-9994</a>
+                <a href="mailto:sis@savelife.or.kr">sis@savelife.or.kr</a>
+            </div>
+        </div>
+        <div>
+            <p>COPYRIGHT (C) LIFE. ALL RIGHTS RESERVED.</p>
+            <a href="https://www.acrc.go.kr">국민권익위원회</a>
+            <a href="https://www.nts.go.kr">국세청</a>
+        </div>
+    </footer>
+</body>
+</html>
