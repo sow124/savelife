@@ -80,15 +80,17 @@
     }
     header h1 a > img{
         width: 100%;
+        max-width: 212px;
     }
     header nav > ul{
         display: none;
     }
     header nav button{
         position: absolute;
-        right: 0;top:20%;
+        right: 0;top:25%;
         width: 10%;
         height: 33px;
+        padding: 10px 0px; 
         background-color: transparent;
         border: none;
         text-indent: -99999px;
@@ -408,7 +410,7 @@
         font-size: 12px;
         width: 50%;
         margin-left: 5.3%;
-        padding: 15px 0px;
+        padding: 10px 0px;
         position: absolute;
     }
     footer > div:last-child  a{
@@ -436,6 +438,8 @@
     /* pager */
     .pager{
     font-size: 14px;
+    max-width: 430px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -443,7 +447,8 @@
     }
     .pager > a{
     text-align: center;
-    width: 7vw;
+    max-width: 30px;
+    width: 6vw;
     line-height: 30px;
     border:1px solid #666666;
     color: black;
@@ -456,6 +461,7 @@
     text-align: center;
     }
     .pager ol li{
+    max-width: 30px;
     width: 6vw;
     border: 1px solid #666666;
     line-height: 30px;
@@ -463,10 +469,10 @@
     
     }
     .pager ol li:first-child{
-    margin-left: 5px;
+    margin-left: 1.5vw;
     }
     .pager ol li:last-child{
-    margin-right: 5px;
+    margin-right: 1.5vw;
     }
     
     .pager ol li > a{
@@ -480,7 +486,8 @@
     background-color: #cccccc;
     }
     .searchbar{
-    margin-bottom: 100px;
+        max-width: 440px;
+        margin: 0 auto 100px;
     }
     .searchbar fieldset {
         padding: 0 5.3%;
@@ -519,9 +526,6 @@
     clear: both;
     }
 }
-
-
-
 @media screen and (min-width:768px) and (max-width:1279px) {
     header nav+a {
         font-weight: 700;
@@ -1024,21 +1028,7 @@
     display: block;
     clear: both;
 }
-
-
-
-    
-
-
-
-
 }
-
-
-
-
-
-
 @media screen and (min-width: 1280px) {
     header nav {
         font-weight: 300;
@@ -1419,9 +1409,6 @@
         display: block;
         clear: both;
     }
-    
-    /* footer > div:nth-child(2) div:last-child{margin-right: 40px;} */
-
     /* pager */
     .pager{
         display: flex;
