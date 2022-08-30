@@ -1267,6 +1267,7 @@
 .householddisclosure > div:nth-child(2) > div ol li:nth-child(2n+1) p{
     width: 100%;
 }
+
 .householddisclosure > div:nth-child(2) > div ol li:nth-child(2n+1) p::after{
     content: '';
     position: absolute;
@@ -1285,7 +1286,7 @@
     border-radius: 100%;
     background-color: #666666;
     top: 14%;
-    left: -7vw;
+    left: -6.5vw;
 }
 .householddisclosure > div:nth-child(2) > div ol li:nth-child(2n+2){
     float: left;
@@ -1320,6 +1321,29 @@
 }
 .householddisclosure.article img{
     display: block;
+}
+/* aboutSponsoredcompanies page */
+.aboutSponsoredcompanies div:nth-child(2) h3{
+    padding-left: 15px;
+    margin: 100px 0px 65px 5.3%;
+}
+.tickerSlider{
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+.aboutSponsoredcompanies div:nth-child(2) > div.bx-wrapper{
+    border-bottom: 1px solid #666666;
+    margin: 0 auto 65px;
+}
+.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+.tickerSlider::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 /* report page */
 .report .headCopy{background-image: url('../images/report_headercopy_bg.jpg');}
@@ -1867,45 +1891,7 @@
     display: block;
     margin-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
 @media screen and (min-width:768px) and (max-width:1279px) {
     .headCopy h2 small{font-size: 14px; color: white;}
     .headCopy h2 {
@@ -3254,7 +3240,6 @@
 }
 .aboutSponsoredcompanies div:nth-child(2) > div.bx-wrapper{
     border-bottom: 1px solid #666666;
-    border-top: 1px solid #666666;
     margin: 0 auto 65px;
 }
 .bx-wrapper{
@@ -5174,7 +5159,6 @@
 }
 .aboutSponsoredcompanies div:nth-child(2) > div.bx-wrapper{
     border-bottom: 1px solid #666666;
-    border-top: 1px solid #666666;
     margin: 0 auto 65px;
 }
 .bx-wrapper{
