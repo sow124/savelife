@@ -502,12 +502,12 @@
     }
     .searchbar fieldset input[type="search"]{
     width: 35%;
+    padding: 0 10px;
     height: 40px;
     line-height: 38px;
     border: 1px solid #cccccc;
     border-left: 0px;
     border-right: 0px;
-    padding: 0px;
     margin-left: -3px;
     }
     .searchbar fieldset input[type="submit"]{

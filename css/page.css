@@ -233,7 +233,7 @@
     position: absolute;
     bottom: 15px;
     left: 15px;
-    width: 100%;
+    width: 90%;
 }
 .lifetv ul li > div h3{
     border-left: 5px solid #ffde7d;
@@ -439,6 +439,8 @@
 }
 .notice > div:nth-child(2) > ul > li > p{
     width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin: 0 auto;
     line-height: 22px;
 }
@@ -1588,6 +1590,8 @@
     background-position: center;
     text-indent: -9999px;
 }
+.article iframe{width: 80%;margin: 0 auto; margin-bottom: 25px;}
+.article .lifelogo{max-width: 200px;}
 .article div:nth-child(2) article aside > ul > li:nth-child(1) a{
     background-image: url('../images/sns_kakaotalk.png');
 }
@@ -1650,6 +1654,8 @@
     font-weight: 400;
     line-height: 21px;
     width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin: 0 auto;
 }
 .article div:nth-child(2) article > p.t_left{
@@ -1661,12 +1667,19 @@
 .article div:nth-child(2) article > p:last-child{
     margin-bottom: 100px;
 }
-.article div:nth-of-type(2) a{
-    width: 80%;
+.article div:nth-of-type(2) p > a{
     word-break: break-all;
+    width: 80%;
+    color: red;
+    display: inline-block;
+}
+.article div:nth-of-type(2) article > a{
+    word-break: break-all;
+    width: 80%;
     font-size: 16px;
     text-overflow: ellipsis;
     font-weight: 400;
+    margin-bottom: 25px;
     color: red;
     display: inline-block;
 }
@@ -1776,7 +1789,7 @@
     width: 100%;
     height: 95px;
     margin-bottom: 25px;
-    padding: 10px 0px;
+    padding: 15px 15px;
     border: none;
     resize: none;
     font-size: 15px;
@@ -2384,6 +2397,7 @@
 }
 .column div:nth-child(2) figure figcaption ul li{
     margin-bottom: 25px;
+    line-height: 22px;
 }
 .column div:nth-child(2) > ul::after{
     content: '';
@@ -2400,7 +2414,6 @@
     padding-bottom: 30px;
     margin-bottom: 65px;
     background-color: #eeeeee;
-    height: 460px;
 }
 .column div:nth-child(2) > ul > li a{
     display: block;
@@ -3494,6 +3507,8 @@
     background-position: center;
     text-indent: -9999px;
 }
+.article iframe{margin-bottom: 25px;}
+.article .lifelogo{max-width: 200px;}
 .article div:nth-child(2) article aside > ul > li:nth-child(1) a{
     background-image: url('../images/sns_kakaotalk.png');
 }
@@ -3565,7 +3580,7 @@
 .article div:nth-child(2) article > p:last-child{
     margin-bottom: 100px;
 }
-.article div:nth-of-type(2)  a{
+.article div:nth-of-type(2) >  a{
     font-size: 16px;
     font-weight: 400;
     color: red;
@@ -5424,6 +5439,8 @@
     text-indent: -9999px;
     
 }
+.article iframe{margin-bottom: 25px;}
+.article .lifelogo{max-width: 200px;}
 .article div:nth-child(2) article aside > ul > li:nth-child(1) a{
     background-image: url('../images/sns_kakaotalk.png');
 }
@@ -5466,6 +5483,7 @@
 }
 .article div:nth-child(2) article span a{
     font-size: 16px;
+    margin-left: 25px;
     font-weight: 400;
     color: #999999;
 }
