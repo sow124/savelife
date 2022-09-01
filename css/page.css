@@ -1888,6 +1888,7 @@
     background-position: center;
     background-size: contain;
 }
+.article div:nth-child(2) > *:last-child{margin-bottom: 65px;} 
 .article div:nth-child(2) strong{
     display: block;
     font-size: 24px;
@@ -1904,6 +1905,7 @@
     display: block;
     margin-bottom: 25px;
 }
+
 }
 @media screen and (min-width:768px) and (max-width:1279px) {
     .headCopy h2 small{font-size: 14px; color: white;}
@@ -2349,6 +2351,9 @@
 .notice > div:nth-child(2) > ul > li{
     margin-bottom: 65px;
 }
+.notice > div:nth-child(2) > ul > li img{
+    margin-bottom: 35px;
+}
 .notice > div:nth-child(2) > ul > li > mark{
     line-height: 36px;
     margin-bottom: 22px;
@@ -2511,7 +2516,7 @@
     margin: 0 auto;
     line-height: 24px;
     text-overflow: ellipsis;
-    height: 19vw;
+    height: 215px;
     overflow: hidden;
 }
 .activitydata div:nth-child(2) ul > li a{
@@ -3580,12 +3585,18 @@
 .article div:nth-child(2) article > p:last-child{
     margin-bottom: 100px;
 }
-.article div:nth-of-type(2) >  a{
+.article div:nth-of-type(2) > a{
     font-size: 16px;
     font-weight: 400;
     color: red;
     display: inline-block;
     margin-bottom: 25px;
+}
+.article div:nth-of-type(2) p > a{
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    display: inline-block;
 }
 .article div:nth-child(2) article > table{
     border: 1px solid #cccccc;
@@ -3646,9 +3657,6 @@
 .article div:nth-child(2) article b{
     font-weight: 700;
     font-size: 16px;
-}
-.article img{
-    width: 80%;
 }
 .article div:nth-of-type(3){
     background-color: #eeeeee;
@@ -3787,6 +3795,7 @@
     background-position: center;
     background-size: contain;
 }
+.article div:nth-child(2) > *:last-child{margin-bottom: 65px;} 
 .article div:nth-child(2) strong{
     display: block;
     font-size: 24px;
