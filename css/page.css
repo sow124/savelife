@@ -3567,6 +3567,7 @@
 }
 .article div:nth-child(2) article > img{
     margin: 0 auto 25px;
+    max-width: 80%;
 }
 
 .article div:nth-child(2) article > p{
