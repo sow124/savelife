@@ -2412,6 +2412,7 @@
 .column div:nth-child(2) > ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     padding: 0px 5.3%;
 }
 .column div:nth-child(2) > ul > li{
@@ -3586,7 +3587,7 @@
 .article div:nth-child(2) article > p:last-child{
     margin-bottom: 100px;
 }
-.article div:nth-of-type(2) > a{
+.article div:nth-of-type(2) article > a{
     font-size: 16px;
     font-weight: 400;
     color: red;
