@@ -5592,7 +5592,7 @@
 .article div:nth-of-type(3){background-color: #eeeeee;}
 .article div:nth-of-type(3) form fieldset{
     max-width: 1440px;
-    margin: 0 auto 25px;
+    margin: 0 auto;
     display: flex;
     padding-bottom: 65px;
     border-bottom: 1px solid #cccccc;
@@ -5663,7 +5663,7 @@
 .article div:nth-of-type(3) > ul.active{
     display: block;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 25px auto 0px;
     padding-bottom: 65px;
 }
 .article div:nth-of-type(3) > ul.active li{
